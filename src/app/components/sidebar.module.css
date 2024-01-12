@@ -1,0 +1,33 @@
+.list li{
+    text-decoration: none;
+    list-style: none;
+
+  }
+  .mobileSidebar{
+    display: block;
+    width: 37.333% ;
+  }
+  
+  .mobileSidebarOpen {
+    display: block;
+    position: fixed;
+    width: 100%;
+    background-color: #e7e7e7;
+    height: 100%;
+    z-index: 9999;
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    top: 0;
+    /* Other styles for visible sidebar */
+  }
+  
+  @media screen and (max-width:480px) {
+    .mobileSidebar {
+      display: none;
+      opacity: 0;
+      transform: translateX(-100%);
+      transition: opacity 0.3s ease, transform 0.3s ease;
+      /* Other styles for hidden sidebar */
+    }
+  }
