@@ -1,7 +1,7 @@
 // components/Sidebar.js
 "use client"
 import Link from 'next/link';
-import styles from './Sidebar.module.css';
+import styles from './sidebar.module.css';
 import { usePathname } from 'next/navigation';
 
 const Sidebar = ({ isOpensidebar, onClose }) => {
