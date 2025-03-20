@@ -112,14 +112,11 @@ export default function login() {
                     </div>
                   </div>
                 </div>
-
-
               </div>
               <PostCard />
             </div>
           </div>
           <div>
-
           </div>
         </div>
       </div>
